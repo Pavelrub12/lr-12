@@ -11,7 +11,7 @@ class Vehicle:
         self.clients_list = []
     
     def load_cargo(self, client):
-        from client import Client
+        from transport.client import Client
         if not isinstance(client, Client):
             raise TypeError("Нужен объект Client")
         

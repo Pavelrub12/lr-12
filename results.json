@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "name": "Vlad",
+      "weight": 0.1,
+      "vip": true
+    },
+    {
+      "name": "Ignat",
+      "weight": 0.677,
+      "vip": false
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "Airplane",
+      "id": "f9c10fb5",
+      "capacity": 1.234,
+      "altitude": 10000.0
+    },
+    {
+      "type": "Van",
+      "id": "8f5f2be2",
+      "capacity": 0.123,
+      "refrigerated": true
+    }
+  ]
+}

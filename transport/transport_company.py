@@ -1,8 +1,8 @@
 from typing import List, Dict, Tuple
-from vehicle import Vehicle
-from client import Client
-from airplane import Airplane
-from van import Van
+from transport.vehicle import Vehicle
+from transport.client import Client
+from transport.airplane import Airplane
+from transport.van import Van
 
 class TransportCompany:
     """Класс для управления транспортной компанией"""
